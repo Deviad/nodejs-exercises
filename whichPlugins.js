@@ -1,5 +1,5 @@
 // This code is able to scan a JSON in order to find the keys on the left side and say if there are some matching a given list.
-
+// To execute it you need to run the file from command line. E.g. node exercise02.js text.txt
 let [executable, absPath, target, ...message] = process.argv;
 const fs = require('fs');
 const readStream = fs.createReadStream(target, {encoding:  "utf8"});
