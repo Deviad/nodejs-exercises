@@ -42,5 +42,3 @@ string = 'adasdasdasdasd pippo[  asdasdasdasd[asdsada]dasda,sdasdadasdas  ]  '
 
 console.log(endBracketPos(string));
 
-
-// const postcssBlockStart = configContents.indexOf("require.resolve('postcss-loader')");
